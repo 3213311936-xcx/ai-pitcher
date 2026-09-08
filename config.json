@@ -1,0 +1,37 @@
+{
+  "version": "2.1.0",
+  "panel": {
+    "width": 440,
+    "position": "right"
+  },
+  "baseline": {
+    "benchmark_ctr": 0.025,
+    "benchmark_submit_rate": 0.038,
+    "benchmark_cpl": 200,
+    "benchmark_cpm": 45,
+    "updated_at": "2026-09-08T10:00:00Z",
+    "source": "2026年B2B表单获客行业基线"
+  },
+  "thresholds": {
+    "freq_warn": 3.0,
+    "cpl_anomaly_ratio": 1.5,
+    "cpm_spike_ratio": 1.1,
+    "time_waste_spend_ratio": 1.5
+  },
+  "currency": "¥",
+  "autoRefresh": 30000,
+  "industry": "B2B_leadgen",
+  "features": {
+    "funnel_diagnosis": true,
+    "knowledge_feed": true,
+    "lead_quality_tagging": true,
+    "attribution_reminder": true,
+    "offline_conversion_reminder": true,
+    "device_split_suggestion": true,
+    "budget_transfer_suggestion": true,
+    "creative_fatigue_warning": true,
+    "cpm_trend_alert": true,
+    "auto_execute": false
+  },
+  "changelog": "v2.1.0: 新增CPL归因分解(各因素贡献百分比)/可执行建议(A/B测试+观察天数)/全天CPL预测预警/知识投喂引用来源，修复语法错误"
+}
